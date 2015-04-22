@@ -181,7 +181,7 @@
 										}));
 										var secondDate = new Date();
 
-										if (nextSnapshot && (new Date(nextSnapshot.get("_ValidTo"))).getFullYear() !== 9998)
+										if (nextSnapshot && (new Date(nextSnapshot.get("_ValidTo"))).getFullYear() !== 9999)
 											secondDate = new Date(nextSnapshot.get("_ValidTo"));
 
 										var cycleTime = Rally.util.DateTime.getDifference(secondDate, firstDate, "day");
